@@ -1,1 +1,16 @@
 baseURL = 'https://patsplants-site.onrender.com'
+languageCode = 'en-us'
+title = "Welcome to Pat's Plants"
+theme = 'PaperMod'
+
+[menu]
+[[menu.main]]
+  identifier = 'about'
+  name = 'about'
+  url = '/about/'
+  weight = -110
+[[menu.main]]
+  name = 'plants'
+  url = '/plants/'
+  weight = -100
+
